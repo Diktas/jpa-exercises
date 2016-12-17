@@ -16,7 +16,7 @@ public class ProductRepository {
 
 
     public List<ProductEntity> getProducts() {
-        Query q = em.createQuery("select p from ProductEntity p");
+        Query q = em.createQuery("select ppppp from ProductEntity p");
         return q.getResultList();
     }
 
